@@ -1,0 +1,46 @@
+Timestamp: 20.02.2024 19:18:39
+Message: The UTC time represented when the offset is applied must be between year 0 and 10,000. (Parameter 'offset')
+StackTrace:    at System.DateTimeOffset.ValidateDate(DateTime dateTime, TimeSpan offset)
+   at System.DateTimeOffset..ctor(DateTime dateTime)
+   at System.DateTimeOffset.op_Implicit(DateTime dateTime)
+   at LR5_ASP.Pages.IndexModel.OnPost(String value, DateTime expiry) in C:\Users\SuperPC\source\repos\LR5_ASP\LR5_ASP\Pages\Index.cshtml.cs:line 17
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.ActionResultHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at LR5_ASP.ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\SuperPC\source\repos\LR5_ASP\LR5_ASP\ErrorLoggingMiddleware.cs:line 27
+--------------------------------------------------
+
+Timestamp: 20.02.2024 19:21:18
+Message: The UTC time represented when the offset is applied must be between year 0 and 10,000. (Parameter 'offset')
+StackTrace:    at System.DateTimeOffset.ValidateDate(DateTime dateTime, TimeSpan offset)
+   at System.DateTimeOffset..ctor(DateTime dateTime)
+   at System.DateTimeOffset.op_Implicit(DateTime dateTime)
+   at LR5_ASP.Pages.IndexModel.OnPost(String value, DateTime expiry) in C:\Users\SuperPC\source\repos\LR5_ASP\LR5_ASP\Pages\Index.cshtml.cs:line 17
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.ActionResultHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at LR5_ASP.ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\SuperPC\source\repos\LR5_ASP\LR5_ASP\ErrorLoggingMiddleware.cs:line 27
+--------------------------------------------------
+

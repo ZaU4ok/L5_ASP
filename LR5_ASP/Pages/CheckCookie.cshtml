@@ -1,0 +1,16 @@
+﻿@page
+@model CheckCookieModel
+@{
+    ViewData["Title"] = "Check Cookie";
+}
+
+<h2>Перевірка кукі:</h2>
+
+@if (Model.CookieValue != null)
+{
+    <p>Значення кукі: @Model.CookieValue</p>
+}
+else
+{
+    <p>Кукі з вказаним ім'ям не знайдено.</p>
+}

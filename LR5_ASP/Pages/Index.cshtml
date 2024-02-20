@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="post">
+    <div>
+        <label for="value">Значення:</label>
+        <input type="text" id="value" name="value" />
+    </div>
+    <div>
+        <label for="expiry">Дата та час старіння:</label>
+        <input type="datetime-local" id="expiry" name="expiry" />
+    </div>
+    <button type="submit">Зберегти в куках</button>
+</form>
